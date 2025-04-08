@@ -22,6 +22,17 @@
                                     <span class="text-danger">{{ $errors->first('name') }}</span>
                                 @endif
                             </div>
+                            <div class="form-group mb-3">
+                                <label for="age" class="fw-bold">Age</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                    <input type="text" placeholder="Age" id="age" class="form-control" name="age"
+                                           value="{{ $user->age }}" required autofocus>
+                                </div>
+                                @if ($errors->has('name'))
+                                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                                @endif
+                            </div>
 
                             <div class="form-group mb-3">
                                 <label for="email" class="fw-bold">Email</label>

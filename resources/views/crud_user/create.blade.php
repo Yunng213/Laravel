@@ -27,8 +27,9 @@
                                 <div class="form-group mb-3">
                                     <label for="age" class="fw-bold">Age</label>
                                     <div class="input-group">
-                                        <span class="input-group-text bg-light"><i class="bi bi-person-bounding-box"></i></i>
-</i></span>
+                                        <span class="input-group-text bg-light"><i
+                                                class="bi bi-person-bounding-box"></i></i>
+                                            </i></span>
                                         <input type="age" placeholder="Enter your Age" id="age"
                                             class="form-control rounded-end" name="age" required>
                                     </div>
@@ -52,7 +53,7 @@
                                         </span>
                                     @endif
                                 </div>
-                               
+
                                 <div class="form-group mb-3">
                                     <label for="phone" class="fw-bold">Phone</label>
                                     <div class="input-group">
@@ -80,7 +81,7 @@
                                         </span>
                                     @endif
                                 </div>
-                              
+
                                 <div class="form-group mb-3">
                                     <label for="password" class="fw-bold">Password</label>
                                     <div class="input-group">

@@ -57,6 +57,7 @@ class CrudUserController extends Controller
     {
         $request->validate([
             'name' => 'required',
+            'age' => 'required',
             'email' => 'required|email|unique:users',
             'phone' => 'required',
             'address' => 'required',
@@ -66,6 +67,7 @@ class CrudUserController extends Controller
         $data = $request->all();
         $check = User::create([
             'name' => $data['name'],
+            'age' => $data['age'],
             'email' => $data['email'],
             'phone' => $data['phone'],
             'address' => $data['address'],
